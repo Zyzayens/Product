@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <header id="header"> <!--head avec la nav bar-->
+      <img src="https://www.pinclipart.com/picdir/middle/165-1657734_microsoft-powerpoint-clip-art.png" id="header-img" width="50px" height="50px">
+      <nav id="nav-bar"> <!-- Nav bar-->
+          <a class="nav-link" href="#modeles">Modeles</a>  <!-- modeles dispo ajouter l'ancre-->
+          <a class="nav-link" href="#media">Vidéo de présentation</a>   <!-- video dispo ajouter l'ancre-->
+          <a class="nav-link" href="#product-2">Catalogue</a>   <!-- catalogue dispo ajouter l'ancre-->
+      </nav>
+    </header>
+
+    <main id="container"> <!-- conteneur de la grid -->
+
+      <!-- Box des modeles-->
+      <div id="modeles">
+        <h2> Nos modeles </h2>
+        <pre>
+Tailles disponibles: de 1 à 50 pouces sur demande.
+
+Divers motif de dentelure:
+
+Dentures droites.
+Dentures hélicoïdales.
+Dentures à chevrons (Citroën)
+Engrenages à collets.
+Engrenages à axes parallèles.
+Axes concourants.
+Axes non concourants.
+
+
+Pour plus d'information sur nos engrenages nous contacter.
+        </pre>
+      </div>
+
+      <!-- box avec le form email-->
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email" id="email-label">Abonnez-vous à la newletter
+          <br>
+          <input type="email" id="email" name="email" placeholder="E-mail" required>
+        </label>
+        <br>
+        <input type="submit" id="submit" action="https://www.freecodecamp.com/email-submit">
+      </form>
+
+      <!-- box de la video-->
+      <div id="media">
+        <h2> Nos produits </h2>
+        <br>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/yep--z0cHCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+        <!--produit 1-->
+        <div id="product-1">
+          <h3> Engrenage droit 25 pouces </h3>
+          <img src="https://www.zoneindustrie.com/var/zoneindustrie/storage/images/entreprises/hpc/engrenages-droits-grands-modules-serie-economique-20444.html/3889313-1-fre-FR/Engrenages-droits-Grands-modules-Serie-economique.jpg" id="photo-1" width="300px" height="200px">
+        </div>
+
+        <!--produit 2-->
+        <div id="product-2">
+          <h3> Engrenage citroën 3 pouces </h3>
+          <img src="https://braidwoodgear.com/wp-content/uploads/2017/12/Braidwood-photo-engrenage-a-chevrons.jpg"id="photo-2" width="300px" height="200px">
+        </div>
+
+        <!--produit 3-->
+        <div id="product-3">
+          <h3> Engrenage conique 10 pouces </h3>
+          <img src="https://m.media-amazon.com/images/I/41wZ-k169NL._AC_UL960_QL65_.jpg" id="photo-3" width="300px" height="200px">
+        </div>
+    </main>
+
+    <!-- footer avec les referances -->
+    <footer>
+      <ul>
+        <p>Gear logo from Pinclipart <a href="https://www.pinclipart.com/pindetail/oThwJb_brand-icon-gear-wheel-png-clipart/" class="ref" target="_blank">Here</a></p>
+        <p>Video from Pierre Provot on youtube <a href="https://www.youtube.com/watch?v=yep--z0cHCg"class="ref"target="_blank">Here</a></p>
+        <p>Left Gear picture from zoneindustrie <a href="https://www.zoneindustrie.com/Produit/Engrenages-droits-Grands-modules-Serie-economique-20444.html"class="ref" target="_blank">Here</a></p>
+        <p>Middle gear picture from Braidwoodgear <a href="http://braidwoodgear.com/origines-francaises-engrenage-chevrons/"class="ref" target="_blank">Here</a></p>
+        <p>Left gear picture from Amazon, cerobit gear <a href="https://www.amazon.fr/engrenage-int%C3%A9rieur-Diam%C3%A8tre-Maillage-engrenages/dp/B0967SQJYX/ref=sr_1_14?keywords=engrenage+conique&qid=1654698070&sr=8-14" class="ref" target="_blank">Here</a></p>
+      </ul>
+    </footer>
+
+  </body>
+</html>
